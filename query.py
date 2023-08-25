@@ -25,7 +25,7 @@ if __name__ == "__main__":
   # optionally set your wandb settings or configs
   os.environ["WANDB_PROJECT"] = "wandb-course-project"
 
-  # Load documentation file that has been exported like this
+  # Load documentation file that has been exported like this (see create_doc.sh)
   # man du | col -bx > du.man
   document_loader = TextLoader("du.man")
   documents = document_loader.load()
