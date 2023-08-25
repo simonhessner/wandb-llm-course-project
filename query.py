@@ -21,8 +21,6 @@ if __name__ == "__main__":
 
   # turn on wandb logging for langchain
   os.environ["LANGCHAIN_WANDB_TRACING"] = "true"
-
-  # optionally set your wandb settings or configs
   os.environ["WANDB_PROJECT"] = "wandb-course-project"
 
   # Load documentation file that has been exported like this (see create_doc.sh)
