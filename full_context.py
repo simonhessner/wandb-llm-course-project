@@ -1,7 +1,6 @@
 import os
 import tiktoken
 import argparse
-from rich.markdown import Markdown
 from langchain.document_loaders import TextLoader
 from langchain.prompts import PromptTemplate
 from langchain.llms import OpenAI
